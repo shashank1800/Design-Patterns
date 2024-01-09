@@ -1,0 +1,10 @@
+package org.example.a_creational_patterns.b_abstract_factory.component;
+
+import org.example.util.CommonUtils;
+
+public class WinCheckBox implements CheckBox {
+    @Override
+    public void check() {
+        CommonUtils.display("Win Button checked");
+    }
+}
