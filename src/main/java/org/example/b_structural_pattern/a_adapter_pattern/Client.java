@@ -13,5 +13,6 @@ public class Client {
         CommonUtils.display(users);
 
         client.post("/chc/user", "Shashank");
+
     }
 }
