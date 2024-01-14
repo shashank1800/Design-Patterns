@@ -1,4 +1,4 @@
-package org.example.c_behavioral_patterns.memento;
+package org.example.c_behavioral_patterns.b_memento;
 
 import org.example.util.CommonUtils;
 

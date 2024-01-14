@@ -1,4 +1,4 @@
-package org.example.c_behavioral_patterns.observer;
+package org.example.c_behavioral_patterns.a_observer;
 
 import org.example.util.CommonUtils;
 

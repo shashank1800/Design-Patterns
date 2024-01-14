@@ -1,4 +1,4 @@
-package org.example.c_behavioral_patterns.memento;
+package org.example.c_behavioral_patterns.b_memento;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package org.example.c_behavioral_patterns.observer;
+package org.example.c_behavioral_patterns.a_observer;
 
 import java.util.ArrayList;
 import java.util.HashMap;
