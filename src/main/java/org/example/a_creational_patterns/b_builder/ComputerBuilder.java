@@ -1,4 +1,4 @@
-package org.example.a_creational_patterns.d_builder;
+package org.example.a_creational_patterns.b_builder;
 
 public class ComputerBuilder {
     ProcessorType processorType = ProcessorType.AMD;

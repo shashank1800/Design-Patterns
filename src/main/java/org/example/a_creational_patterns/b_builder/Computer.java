@@ -1,4 +1,4 @@
-package org.example.a_creational_patterns.d_builder;
+package org.example.a_creational_patterns.b_builder;
 
 public class Computer {
     ProcessorType processorType;
@@ -12,6 +12,13 @@ public class Computer {
         this.ram = ram;
     }
 
-
+    @Override
+    public String toString() {
+        return "Computer{" +
+                "processorType=" + processorType +
+                ", hardDiskType=" + hardDiskType +
+                ", ram=" + ram +
+                '}';
+    }
 }
 

@@ -1,7 +1,7 @@
-package org.example.a_creational_patterns.b_abstract_factory;
+package org.example.a_creational_patterns.d_abstract_factory;
 
-import org.example.a_creational_patterns.b_abstract_factory.factory.MacFactory;
-import org.example.a_creational_patterns.b_abstract_factory.factory.WinFactory;
+import org.example.a_creational_patterns.d_abstract_factory.factory.MacFactory;
+import org.example.a_creational_patterns.d_abstract_factory.factory.WinFactory;
 
 public class Client {
 

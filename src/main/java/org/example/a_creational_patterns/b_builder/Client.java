@@ -1,4 +1,4 @@
-package org.example.a_creational_patterns.d_builder;
+package org.example.a_creational_patterns.b_builder;
 
 import org.example.util.CommonUtils;
 
@@ -10,10 +10,6 @@ public class Client {
                 .setHardDiskType(HardDiskType.HDD)
                 .build();
 
-        CommonUtils.display(
-                computer.processorType,
-                computer.hardDiskType,
-                computer.ram
-        );
+        CommonUtils.display(computer);
     }
 }

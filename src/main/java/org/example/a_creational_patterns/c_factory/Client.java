@@ -1,4 +1,4 @@
-package org.example.a_creational_patterns.a_factory;
+package org.example.a_creational_patterns.c_factory;
 
 public class Client {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package org.example.a_creational_patterns.a_factory;
+package org.example.a_creational_patterns.c_factory;
 
 import org.example.util.CommonUtils;
 

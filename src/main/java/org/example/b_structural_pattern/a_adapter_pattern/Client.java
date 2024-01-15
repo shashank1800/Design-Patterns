@@ -4,9 +4,7 @@ import org.example.util.CommonUtils;
 
 public class Client {
 
-    public static NetworkAdapter client = new NewLibraryAdapter();
-
-    public static LegacyLibrary oldClient = new LegacyLibrary();
+    public static NetworkAdapter client = new NetworkLibraryAdapter();
 
     public static void main(String[] args) {
         String users = client.get("/chc/users");

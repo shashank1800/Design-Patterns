@@ -1,7 +1,7 @@
-package org.example.a_creational_patterns.b_abstract_factory;
+package org.example.a_creational_patterns.d_abstract_factory;
 
-import org.example.a_creational_patterns.b_abstract_factory.component.Button;
-import org.example.a_creational_patterns.b_abstract_factory.component.CheckBox;
+import org.example.a_creational_patterns.d_abstract_factory.component.Button;
+import org.example.a_creational_patterns.d_abstract_factory.component.CheckBox;
 
 public class Application {
     GUIFactory factory;

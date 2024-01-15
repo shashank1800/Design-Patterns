@@ -10,6 +10,14 @@ public abstract class Restaurant {
         this.pizza = pizza;
     }
 
+    protected abstract void addSauce();
+    protected abstract void makeCrust();
+
+
+    public Pizza getPizza() {
+        return pizza;
+    }
+
     public void prepareAndDeliver() {
         CommonUtils.display("Preparing Pizza");
         addSauce();
@@ -18,10 +26,5 @@ public abstract class Restaurant {
         pizza.deliver();
     }
 
-    protected abstract void addSauce();
-    protected abstract void makeCrust();
 
-    public Pizza getPizza() {
-        return pizza;
-    }
 }
